@@ -18,3 +18,6 @@ bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic LOOP-TOPIC
 
 ## Delete a Topic if Needed
 bin/kafka-topics.sh --delete --zookeeper localhost:2181 --topic LOOP-TOPIC
+
+## Sample
+https://medium.com/@iet.vijay/kafka-multi-brokers-multi-consumers-and-message-ordering-b61ad7841875
