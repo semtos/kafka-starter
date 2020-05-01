@@ -3,9 +3,7 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 
 # Start Kafka Servers (3 Nodes)
 bin/kafka-server-start.sh config/server.properties
-
 bin/kafka-server-start.sh config/server2.properties
-
 bin/kafka-server-start.sh config/server3.properties
 
 # Start Kafka Servers (3 Nodes)
